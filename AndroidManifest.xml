@@ -26,6 +26,10 @@
             android:name="com.Lab04.Lab04Activity"
             android:label="@string/title_activity_lab03" >
         </activity>
+        <activity
+            android:name="com.aboutme.Aboutme_Activity"
+            android:label="@string/title_activity_aboutme_" >
+        </activity>
     </application>
 
 </manifest>

@@ -6,5 +6,22 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_lab03">Lab03Activity</string>
     <string name="title_activity_aboutme_">Aboutme_Activity</string>
+    <string name="title_activity_lab05_">Lab05_Activity</string>
+
+    <string-array name="listDanhsach">
+        <item>Samsung Galaxy S7</item>
+        <item>Samsung Galaxy S7 edge</item>
+        <item>Apple Iphone 7</item>
+        <item>Apple Iphone 7 Plus</item>
+        <item>XiaoMi Mi5s</item>
+        <item>Samsung Galaxy Note 7</item>
+    </string-array>
+
+    <string name="title_activity_lab01_">Lab01_Activity</string>
+    <string name="title_activity_lab02_">Lab02_Activity</string>
+    <string name="title_activity_lab03_">Lab03_Activity</string>
+    <string name="title_activity_lab06_">Lab06_Activity</string>
+    <string name="title_activity_lab07_">Lab07_Activity</string>
+    <string name="title_activity_lab08_">Lab08_Activity</string>
 
 </resources>

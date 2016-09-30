@@ -30,6 +30,43 @@
             android:name="com.aboutme.Aboutme_Activity"
             android:label="@string/title_activity_aboutme_" >
         </activity>
+        <activity
+            android:name="com.Lab05.Lab05_Activity"
+            android:label="@string/title_activity_lab05_" >
+        </activity>
+        <activity
+            android:name="com.Lab01.Lab01_Activity"
+            android:label="@string/title_activity_lab01_" >
+        </activity>
+        <activity
+            android:name="com.Lab02.Lab02_Activity"
+            android:label="@string/title_activity_lab02_" >
+        </activity>
+        <activity
+            android:name="com.Lab03.Lab03_Activity"
+            android:label="@string/title_activity_lab03_" >
+        </activity>
+        <activity
+            android:name="com.Lab06.Lab06_Activity"
+            android:label="@string/title_activity_lab06_" >
+        </activity>
+        <activity
+            android:name="com.Lab07.Lab07_Activity"
+            android:label="@string/title_activity_lab07_" >
+        </activity>
+        <activity
+            android:name="com.Lab08.Lab08_Activity"
+            android:label="@string/title_activity_lab08_" >
+        </activity>
+        <activity 
+            android:name="com.Lab06.news" >
+        </activity>
+         <activity 
+            android:name="com.Lab06.option" >
+        </activity>
+         <activity 
+            android:name="com.Lab06.contact" >
+        </activity>
     </application>
 
 </manifest>

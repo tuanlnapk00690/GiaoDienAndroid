@@ -1,5 +1,6 @@
 package com.Lab06;
 
+import com.aboutme.Aboutme_Activity;
 import com.giaodienandroid.R;
 import com.giaodienandroid.R.id;
 import com.giaodienandroid.R.layout;
@@ -24,20 +25,15 @@ public class Lab06_Activity extends TabActivity {
 		TabHost tabhost = getTabHost();
 		TabSpec tab1 = tabhost.newTabSpec("first");
 		TabSpec tab2 = tabhost.newTabSpec("second");
-		TabSpec tab3 = tabhost.newTabSpec("third");
 		
-		tab1.setIndicator("News");
-		tab1.setContent(new Intent(this,news.class));
+		tab1.setIndicator("About me");
+		tab1.setContent(new Intent(this,Aboutme_Activity.class));
 		
-		tab2.setIndicator("Option");
-		tab2.setContent(new Intent(this,option.class));
-		
-		tab3.setIndicator("Contact");
-		tab3.setContent(new Intent(this,contact.class));
+		tab2.setIndicator("About Application");
+		tab2.setContent(new Intent(this,About_App.class));
 		
 		tabhost.addTab(tab1);
 		tabhost.addTab(tab2);
-		tabhost.addTab(tab3);
 		
 	}
 

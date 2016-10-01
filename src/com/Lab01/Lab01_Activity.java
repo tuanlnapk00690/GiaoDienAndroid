@@ -9,6 +9,7 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.webkit.WebView;
 
 public class Lab01_Activity extends Activity {
 
@@ -16,24 +17,14 @@ public class Lab01_Activity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_lab01);
-	}
-
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.lab01_, menu);
-		return true;
-	}
-
-	@Override
-	public boolean onOptionsItemSelected(MenuItem item) {
-		// Handle action bar item clicks here. The action bar will
-		// automatically handle clicks on the Home/Up button, so long
-		// as you specify a parent activity in AndroidManifest.xml.
-		int id = item.getItemId();
-		if (id == R.id.action_settings) {
-			return true;
-		}
-		return super.onOptionsItemSelected(item);
+		
+		String doc = "https://drive.google.com/a/fpt.edu.vn/file/d/0B5T9OA3s5A52UGNvQy00bGFRems/view?usp=sharing";
+		
+		WebView wv = (WebView) findViewById(R.id.webView);
+		
+		wv.getSettings().setJavaScriptEnabled(true); 
+		wv.getSettings().setAllowFileAccess(true);
+		wv.getSettings().setLoadsImagesAutomatically(true);
+		wv.loadUrl(doc);
 	}
 }

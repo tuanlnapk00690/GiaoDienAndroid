@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ứng dụng MoMo là ứng dụng tài chính đầu tiên tại Việt Nam cho phép chuyển nhận tiền siêu nhanh qua số điện thoại di động. Đồng thời, ứng dụng còn hỗ trợ nhắc thanh toán hóa đơn hàng tháng cho người sử dụng và thanh toán nhanh tiền điện, nước, internet, điện thoại cố định, điện thoại trả sau, truyền hình cáp, vay tiêu dùng... chỉ với một lần bấm."
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</LinearLayout>

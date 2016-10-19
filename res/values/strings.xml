@@ -23,5 +23,7 @@
     <string name="title_activity_lab06_">Lab06_Activity</string>
     <string name="title_activity_lab07_">Lab07_Activity</string>
     <string name="title_activity_lab08_">Lab08_Activity</string>
+    <string name="title_activity_hien__kq">Hien_KQ</string>
+    <string name="title_activity_notifi">Notifi</string>
 
 </resources>

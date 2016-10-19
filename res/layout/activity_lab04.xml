@@ -9,7 +9,7 @@
     tools:context="com.Lab04.Lab04Activity" >
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/textViewKQPT"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Lab 04 tạo style "

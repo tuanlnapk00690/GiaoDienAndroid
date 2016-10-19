@@ -6,6 +6,7 @@ import com.Lab03.Lab03_Activity;
 import com.Lab04.Lab04Activity;
 import com.Lab05.Lab05_Activity;
 import com.Lab06.Lab06_Activity;
+import com.Lab05.Lab05_Activity;
 import com.Lab07.Lab07_Activity;
 import com.Lab08.Lab08_Activity;
 import com.aboutme.Aboutme_Activity;
